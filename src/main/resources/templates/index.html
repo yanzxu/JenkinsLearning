@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
+
 <head>
     <meta charset="UTF-8">
     <title>Helllo Jenkins</title>
@@ -8,7 +9,7 @@
     <h1 style="text-align: center;">This is my first demo for Jenkins </h1>
 
     <div align="center">
-        <img src="../static/image/doudou.jpg" style="width: 60%;height: 60%">
+        <img th:src="@{/static/doudou.jpg}" style="width: 80%;height: 70%">
     </div>
 
 </body>
