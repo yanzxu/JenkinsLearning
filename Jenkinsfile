@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'Production'
+        label 'aliyun_jenkins'
     }
     stages {
         stage('Build') {
