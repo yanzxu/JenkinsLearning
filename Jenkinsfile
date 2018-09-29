@@ -18,11 +18,11 @@ pipeline {
                 echo 'is deploying to staging.......'
             }
         }
-        stage('Sanity check') {
+       /*  stage('Sanity check') {
             steps {
                 input "Does the staging environment look ok?"
             }
-        }
+        } */
         stage('Deploy - Production') {
             steps {
                 echo 'is deploying to prod .......'
